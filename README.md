@@ -1,4 +1,4 @@
-# 🐧 DevOps Linux Practice Journey
+# 🐧 DevOps/Cloud Practice Journey
 
 > Daily hands-on Linux & DevOps command practice as part of **Mise Academy DevOps Batch**  
 > Practiced on real Ubuntu 24.04 servers via KillerCoda & JSLinux
