@@ -1,7 +1,7 @@
 # 🐧 DevOps/Cloud Practice Journey
 
 > Daily hands-on Linux & DevOps command practice as part of **Mise Academy DevOps Batch**  
-> Practiced on real Ubuntu 24.04 servers via KillerCoda & JSLinux
+> Practiced on real AWS,Azure,Ubuntu 24.04 servers via KillerCoda & JSLinux
 
 ---
 
@@ -19,6 +19,10 @@ Each day includes:
 
 | Day | Topic | Key Commands | Status |
 |-----|-------|-------------|--------|
+| Day 11 | Basic Linux Commands | `pwd`, `ls`, `mkdir`, `touch`, `rm`, `cat`, `cp`, `mv`, `tail -f` | ✅ Done |
+| Day 12 | Basic Linux Commands | `pwd`, `ls`, `mkdir`, `touch`, `rm`, `cat`, `cp`, `mv`, `tail -f` | ✅ Done |
+| Day 13 | User & Group Management | `adduser`, `groupadd`, `usermod -aG`, `grep /etc/passwd` | ✅ Done |
+| Day 14 | File Permissions & chmod | `chmod`, `chown`, `gpasswd`, `userdel`, `groupdel` | ✅ Done |
 | Day 15 | Basic Linux Commands | `pwd`, `ls`, `mkdir`, `touch`, `rm`, `cat`, `cp`, `mv`, `tail -f` | ✅ Done |
 | Day 16 | User & Group Management | `adduser`, `groupadd`, `usermod -aG`, `grep /etc/passwd` | ✅ Done |
 | Day 17 | File Permissions & chmod | `chmod`, `chown`, `gpasswd`, `userdel`, `groupdel` | ✅ Done |
