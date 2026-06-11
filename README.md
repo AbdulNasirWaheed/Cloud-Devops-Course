@@ -30,6 +30,8 @@ Each day includes:
 | Day 20 | Backup & Restore — Linux tar Archiving | `tar -cvf`, `tar -tvf`, `tar -xvf`, `tar -czvf`, `tar -cjvf` | KillerCoda | ✅ Done |
 | Day 21 | Soft Links & Hard Links | `ln -s`, `ln`, `ls -li`, inode verification | KillerCoda | ✅ Done |
 | Day 22 | System Level Linux Commands | `uname`, `hostname`, `uptime`, `free`, `df`, `top`, `htop`, `vmstat`, `ps`, `kill`, `apt`, `systemctl` | KillerCoda + AWS EC2 | ✅ Done |
+| Day 23 | Attaching & Configuring AWS EBS Volume | `lsblk`, `fdisk`, `mkfs.ext4`, `mount`, `blkid`, `fstab`, `chown` | AWS EC2 + EBS Console | ✅ Done |
+| Day 24 | Linux Networking & Troubleshooting | `ip a`, `ping`, `curl`, `netstat`, `ss`, `traceroute`, `nslookup`, `wget`, `ufw`, `grep logs` | AWS EC2 | ✅ Done |
 
 ---
 
@@ -71,7 +73,13 @@ Cloud-Devops-Course/
 ├── Day-21/
 │   ├── commands.md
 │   └── screenshot.png
-└── Day-22/
+├── Day-22/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-23/
+│   ├── commands.md
+│   └── screenshot.png
+└── Day-24/
     ├── commands.md
     └── screenshot.png
 ```
@@ -84,8 +92,9 @@ Cloud-Devops-Course/
 |------|---------|
 | [KillerCoda](https://killercoda.com) | Ubuntu 24.04 — full systemd, journalctl, Docker support |
 | [JSLinux](https://bellard.org/jslinux) | Alpine x86 — lightweight browser Linux for basics |
-| [AWS EC2](https://aws.amazon.com/ec2) | Real Ubuntu cloud server — SSH, IAM, chmod practice |
+| [AWS EC2](https://aws.amazon.com/ec2) | Real Ubuntu cloud server — SSH, IAM, chmod, EBS practice |
 | [AWS IAM](https://aws.amazon.com/iam) | Identity & Access Management — users, groups, policies |
+| [AWS EBS](https://aws.amazon.com/ebs) | Elastic Block Store — cloud disk storage management |
 | Mise Academy | DevOps Batch course |
 
 ---
@@ -104,8 +113,9 @@ Cloud-Devops-Course/
 - ✅ System Diagnostics & Process Monitoring (top, htop, vmstat)
 - ✅ Package Management (apt, dpkg)
 - ✅ Service Management (systemctl)
+- ✅ AWS EBS Volume — attach, partition, format, mount, persist
+- ✅ Linux Networking & Troubleshooting (ip, ping, netstat, ufw)
 - 🔜 Shell Scripting & Automation
-- 🔜 Networking Commands
 - 🔜 Docker & Containers
 - 🔜 CI/CD Pipelines
 - 🔜 Terraform & Infrastructure as Code
@@ -122,18 +132,23 @@ Cloud-Devops-Course/
 - Hard links vs soft links and inodes
 - Process monitoring and CPU/memory stress testing
 - Service lifecycle management with systemctl
+- Disk partitioning, formatting and mounting
+- Network diagnostics and log analysis
+- UFW firewall configuration
 
 ### ☁️ AWS Cloud
 - AWS regions and availability zones
 - EC2 instance creation, SSH access, security groups
 - IAM users, groups, and policies
 - Least Privilege Principle in action
+- EBS volume creation, attachment, and persistence via fstab
 - AWS Free Tier usage
 
 ### 🔧 DevOps Tools
 - Git workflow: init → add → commit → push
-- GitHub branching strategy and pull requests
+- GitHub repository management
 - Backup automation with tar, gzip, bzip2
+- Server security with UFW firewall
 
 ---
 
