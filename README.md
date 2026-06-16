@@ -31,3 +31,98 @@ Each day includes:
 | Day 27| Real-Time Log Analysis & Text Processing Using sed | sed -i, s/old/new/g, /i /a, -n p, regex, multiple -e | AWS EC2 + Ubuntu | ✅ Done |
 
 🗂️ Repository Structure
+Cloud-Devops-Course/
+├── README.md
+├── Day-11/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-12/
+│   ├── commands.md
+│   └── screenshot.png
+├── ...
+├── Day-24/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-26/
+│   ├── commands.md
+│   ├── sample.txt
+│   ├── access.log
+│   └── screenshot.png
+├── Day-27/
+│   ├── commands.md
+│   ├── nginx.conf
+│   ├── deploy.sh
+│   ├── access.log
+│   ├── .env
+│   └── screenshot.png
+└── ... (continuing)
+text🔧 Tools & Environment
+
+| Tool          | Purpose                                      |
+|---------------|----------------------------------------------|
+| KillerCoda    | Ubuntu 24.04 — full systemd, journalctl, Docker support |
+| JSLinux       | Alpine x86 — lightweight browser Linux for basics |
+| AWS EC2       | Real Ubuntu cloud server — SSH, IAM, chmod, EBS, log analysis |
+| AWS IAM       | Identity & Access Management — users, groups, policies |
+| AWS EBS       | Elastic Block Store — cloud disk storage management |
+| Mise Academy  | DevOps Batch course                          |
+
+🌱 Skills Being Built
+
+* ✅ Git & GitHub — version control, push, clone, branching
+* ✅ AWS Account Setup & EC2 Instance Creation
+* ✅ Linux File System Navigation
+* ✅ File & Directory Management
+* ✅ User & Group Administration
+* ✅ File Permissions & Access Control (chmod, chown, RBAC)
+* ✅ AWS IAM — Users, Groups, Policies, Least Privilege
+* ✅ Linux Compression & Archiving (gzip, bzip2, zip, tar)
+* ✅ Soft Links & Hard Links (Inodes)
+* ✅ System Diagnostics & Process Monitoring (top, htop, vmstat)
+* ✅ Package Management (apt, dpkg)
+* ✅ Service Management (systemctl)
+* ✅ AWS EBS Volume — attach, partition, format, mount, persist
+* ✅ Linux Networking & Troubleshooting (ip, ping, netstat, ufw)
+* ✅ **Advanced Text Processing & Log Analysis** (AWK + sed)
+* 🔜 Shell Scripting & Automation
+* 🔜 Docker & Containers
+* 🔜 CI/CD Pipelines
+* 🔜 Terraform & Infrastructure as Code
+
+📚 Key Concepts Covered
+
+🐧 Linux
+* File system hierarchy (/, /home, /etc, /var, /usr)
+* Absolute vs relative paths
+* User/group management and RBAC
+* chmod numeric and symbolic modes
+* Hard links vs soft links and inodes
+* Process monitoring and CPU/memory stress testing
+* Service lifecycle management with systemctl
+* Disk partitioning, formatting and mounting
+* Network diagnostics and log analysis
+* UFW firewall configuration
+* **AWK** — pattern matching, filtering, summarization, math operations, log parsing
+* **sed** — stream editing, in-place substitution, insert/delete, regex, config management
+
+☁️ AWS Cloud
+* AWS regions and availability zones
+* EC2 instance creation, SSH access, security groups
+* IAM users, groups, and policies
+* Least Privilege Principle in action
+* EBS volume creation, attachment, and persistence via fstab
+* AWS Free Tier usage
+
+🔧 DevOps Tools
+* Git workflow: init → add → commit → push
+* GitHub repository management
+* Backup automation with tar, gzip, bzip2
+* Server security with UFW firewall
+* **Production log analysis & configuration automation** using AWK and sed
+
+📬 Connect With Me
+
+* LinkedIn: https://www.linkedin.com/in/abdul-nasir-waheed-47727a80/
+* GitHub: https://github.com/AbdulNasirWaheed
+
+"Every expert was once a beginner. Consistency is the key!" 💪
