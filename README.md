@@ -31,7 +31,9 @@ Each day includes:
 | Day 27| Real-Time Log Analysis & Text Processing Using sed | sed -i, s/old/new/g, /i /a, -n p, regex, multiple -e | AWS EC2 + Ubuntu | ✅ Done |
 
 🗂️ Repository Structure
-Cloud-Devops-Course/
+
+
+text🔧 Cloud-Devops-Course/
 ├── README.md
 ├── Day-11/
 │   ├── commands.md
@@ -39,24 +41,42 @@ Cloud-Devops-Course/
 ├── Day-12/
 │   ├── commands.md
 │   └── screenshot.png
-├── ...
-├── Day-24/
+├── Day-13/
 │   ├── commands.md
 │   └── screenshot.png
-├── Day-26/
+├── Day-14/
 │   ├── commands.md
-│   ├── sample.txt
-│   ├── access.log
 │   └── screenshot.png
-├── Day-27/
+├── Day-15/
 │   ├── commands.md
-│   ├── nginx.conf
-│   ├── deploy.sh
-│   ├── access.log
-│   ├── .env
 │   └── screenshot.png
-└── ... (continuing)
-text🔧 Tools & Environment
+├── Day-16/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-17/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-18/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-19/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-20/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-21/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-22/
+│   ├── commands.md
+│   └── screenshot.png
+├── Day-23/
+│   ├── commands.md
+│   └── screenshot.png
+└── Day-24/
+    ├── commands.md
+    └── screenshot.pngTools & Environment
 
 | Tool          | Purpose                                      |
 |---------------|----------------------------------------------|
